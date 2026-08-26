@@ -1,0 +1,20 @@
+# 路线图：众包平台的推进节奏
+
+## 冷启动策略
+
+自供需求（量潮作为首个/唯一需求方）+ 单垂直切入 → 再横向开放成平台。
+
+## 首期最小闭环（MVP）
+
+```
+发布任务（验收配方 + 定价表 + 托管预算池）
+  → 接单（worker 领取/申请）
+  → 提交证据（submission.evidence）
+  → 自动验收（verification_runs：硬规则全跑 + 软规则量化质量分 + 人工抽样复核）
+  → 托管结算（accepted → settle → release，从 budget_pool 划款）
+  → 信誉（pass_rate / on_time_rate / dispute_rate）
+```
+
+## MVP 聚焦判断
+
+**MVP 的全部工作量集中在「验收器 verifier」。** 验收器立住后，托管结算、唯一归因、信誉、平台化扩展都随之顺理成章。
